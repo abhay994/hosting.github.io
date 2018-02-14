@@ -1,5 +1,10 @@
 .logincover{
-    background: #ffff;
+    background:url(vyble.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     
     position: fixed;
     top: 0;
@@ -12,6 +17,7 @@
     align-items: center;
     
 }
+
 
 
 #logprog{

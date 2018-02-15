@@ -1,11 +1,6 @@
 .logincover{
-    background:url(vyble.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+   
+     background: #ffff;
     position: fixed;
     top: 0;
     left: 0;

@@ -8,6 +8,27 @@
     <link rel="stylesheet" href="style.css"/>
     <script src="https://apis.google.com/js/platform.js" async defer></script>
     <meta name="google-signin-client_id" content="804946057405-b1n4gpjejifrqka5rqf6mjmfe4e0aaud.apps.googleusercontent.com">
+    
+    
+    <script>
+        function ValidateEmail(inputText)
+{
+var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+if(emaillogin.value.match(mailformat))
+{
+
+return true;
+}
+else
+{
+alert("You have entered an invalid email address!");
+
+return false;
+}
+}</script>
+    
+    
+    
 </head>
 <body>
     
@@ -19,7 +40,7 @@
         
         <p id="error">jj</p>
  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-    <input class="mdl-textfield__input" type="text" id="emaillogin">
+    <input class="mdl-textfield__input" type="text" id="emaillogin" onclick="ValidateEmail()">
     <label class="mdl-textfield__label" for="sample3">Email...</label>
   </div>
   <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
